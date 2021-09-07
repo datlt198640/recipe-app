@@ -32,3 +32,9 @@ class UserAdmin(BaseUserAdmin):
             'fields': ('email', 'password1', 'password2'),
         }),
     )
+
+# @admin.register(models.Tag)
+# class TagAdmin(BaseUserAdmin):
+#     list_display = ['name', 'user']
+
+admin.site.register(models.Tag)
