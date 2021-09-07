@@ -38,3 +38,4 @@ class UserAdmin(BaseUserAdmin):
 #     list_display = ['name', 'user']
 
 admin.site.register(models.Tag)
+admin.site.register(models.Ingredient)
